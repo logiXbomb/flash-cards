@@ -1,3 +1,4 @@
+import { map } from 'ramda';
 import flashCard from './flashCard';
 
 it('should return an object', () => {
@@ -6,5 +7,6 @@ it('should return an object', () => {
 
 it('should return an empty card', () => {
   const card = flashCard();
-  card.map(c => expect(c.title).toEqual(''));
+  map(c => expect(c.title).toEqual(''), card);
+  map(c => expect(c.description).toEqual(''), card);
 });
