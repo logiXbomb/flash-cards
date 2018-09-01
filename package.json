@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch"
+    "test": "jest --watch --noStackTrace"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +16,8 @@
     "presets": [
       "env"
     ]
+  },
+  "dependencies": {
+    "monet": "^0.8.10"
   }
 }

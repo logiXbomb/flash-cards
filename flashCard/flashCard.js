@@ -1,5 +1,9 @@
+import { Identity } from 'monet';
+
 const flashCard = () => {
-  return {};
+  return Identity({
+    title: '',
+  });
 };
 
 export default flashCard;
