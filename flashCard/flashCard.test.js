@@ -9,4 +9,5 @@ it('should return an empty card', () => {
   const card = flashCard();
   map(c => expect(c.title).toEqual(''), card);
   map(c => expect(c.question).toEqual(''), card);
+  map(c => expect(c.answer).toEqual(''), card);
 });

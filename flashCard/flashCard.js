@@ -4,6 +4,7 @@ const flashCard = () => {
   return Identity({
     title: '',
     question: '',
+    answer: '',
   });
 };
 
